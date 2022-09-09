@@ -14,6 +14,9 @@ int main(void)
 {
 	char a;
 	char b;
+	char c;
+
+	c = 44;
 
 	for (a = '0'; a <= '9'; ++a)
 	{
@@ -21,7 +24,7 @@ int main(void)
 		{
 			putchar(a);
 			putchar(b);
-			putchar(', ');
+			putchar(c);
 		}
 	}
 
