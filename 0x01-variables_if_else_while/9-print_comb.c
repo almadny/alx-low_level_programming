@@ -14,13 +14,16 @@ int main(void)
 {
 	int a;
 	int c;
+	int s;
 
 	c = 44;
+	s = 32;
 
 	for (a = 48; a <= 57; ++a)
 	{
 		putchar(a);
 		putchar(c);
+		putchar(s);
 	}
 	putchar('\n');
 	return (0);
