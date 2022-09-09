@@ -7,6 +7,6 @@
 int main(void)
 {
 
-	
+	printf("The size of a char:%d",sizeof(char));	
 	return(0);
 }
