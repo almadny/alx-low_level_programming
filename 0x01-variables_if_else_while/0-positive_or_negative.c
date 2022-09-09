@@ -1,11 +1,16 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
 
+/*
+ * Main entry of program
+ * Prints positive and negative numbers
+ * return success (0)
+ */
 int main(void)
-/* main entry point of program */
 {
 	int n;
 
