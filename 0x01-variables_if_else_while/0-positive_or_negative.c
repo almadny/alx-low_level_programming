@@ -1,14 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
 
 /**
- * Main entry of program
- * Prints positive and negative numbers
- * return success (0)
+ * main - Entry point
+ *
+ * n: the number to be checked
+ * Description: The program does
+ * Checks if number is greater than 0
+ * prints is positive
+ * Checks if number is 0
+ * prints n and is zero
+ * Otherwise prints number is negative
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
