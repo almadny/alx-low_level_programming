@@ -22,8 +22,12 @@ int main(void)
 	for (a = 48; a <= 57; ++a)
 	{
 		putchar(a);
-		putchar(c);
-		putchar(s);
+
+		if (a != 57)
+		{
+			putchar(c);
+			putchar(s);
+		}
 	}
 	putchar('\n');
 	return (0);
