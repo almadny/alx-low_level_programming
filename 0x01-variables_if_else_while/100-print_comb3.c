@@ -26,12 +26,11 @@ int main(void)
 	{
 		for (b = '0'; b < 10; ++b)
 		{
-			if ((a == b) || (ab) != (ba)
-				continue;
-			putchar(a);
-			putchar(b);
-			putchar(c);
-			putchar(s);
+			if (a != b)
+				putchar(a);
+				putchar(b);
+				putchar(c);
+				putchar(s);
 		}
 	}
 
