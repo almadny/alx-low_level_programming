@@ -27,10 +27,12 @@ int main(void)
 		for (b = '0'; b < 10; ++b)
 		{
 			if (a != b)
+			{	
 				putchar(a);
 				putchar(b);
 				putchar(c);
 				putchar(s);
+			}
 		}
 	}
 
