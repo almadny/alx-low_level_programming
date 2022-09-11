@@ -26,10 +26,8 @@ int main(void)
 	{
 		for (b = '0'; b < 10; ++b)
 		{
-			if ((a == b) || ((a + b) == (b + a)))
-				
+			if ((a == b) || (ab) != (ba)
 				continue;
-			
 			putchar(a);
 			putchar(b);
 			putchar(c);
