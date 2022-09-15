@@ -22,7 +22,7 @@ void times_table(void)
 			}
 			else
 			{
-				printf("%d\n", n * m);
+				printf("%2d\n", n * m);
 			}
 		}
 	}
