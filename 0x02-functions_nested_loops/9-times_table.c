@@ -19,13 +19,15 @@ void times_table(void)
 			p = n * m;
 			if (m < 9)
 			{
-				_putchar(p + '0');
+				_putchar((p / 10) + '0');
+				_putchar((p % 10) + '0');
 				_putchar(',');
 				_putchar(' ');
 			}
 			else
 			{
-				_putchar(p + '0');
+				_putchar((p / 10) + '0');
+				_putchar((p % 10) + '0');
 				_putchar('\n');
 			}
 		}
