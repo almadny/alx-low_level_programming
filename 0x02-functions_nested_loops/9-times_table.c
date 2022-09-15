@@ -18,13 +18,13 @@ void times_table(void)
 		{
 			if (m < 9)
 			{
-				printf("%d,", n * m);
+				printf("%d, ", n * m);
 			}
 			else
 			{
 				printf("%d", n * m);
 			}
-
+			_putchar('\n');
 		}
 		_putchar('\n');
 	}
