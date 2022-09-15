@@ -7,12 +7,9 @@
  */
 int main(void)
 {
-	if (_isupper('A'))
-	{
-		printf("Your character is upper case");
-	}
-	else
-	{
-		printf("It is not uppercase");
-	}
+	char c;
+
+	c = 'A';
+
+	printf("%c: %d", c, _isupper(c));
 }
