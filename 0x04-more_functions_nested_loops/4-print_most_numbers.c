@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_numbers - print numbers 0 to 9 without 2 and 4
+ * print_most_numbers - print numbers 0 to 9 without 2 and 4
  *
  * Return:void
  */
@@ -10,7 +10,7 @@ void print_numbers(void)
 
 	for (a = 48; a <= 57; a++)
 	{
-		if (a == 50 && a == 52)
+		if (a == 50 || a == 52)
 			continue;
 		_putchar(a);
 	}
