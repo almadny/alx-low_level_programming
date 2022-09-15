@@ -10,22 +10,31 @@
  */
 void times_table(void)
 {
-	int n, m;
+	int n, m, p;
 
 	for (n = 0; n <= 9; n++)
 	{
+		_putchar('0');
+
 		for (m = 0; m <= 9; m++)
 		{
-			if (m < 9)
+			_putchar(',');
+			_putchar(' ');
+
+			p = n * m;
+
+			if (m <= 9)
 			{
-				printf("%2d, ", n * m);
+				_putchar(' ');
 			}
 			else
 			{
-				printf("%2d", n * m);
+				_putchar((p / 10) + '0');
 			}
+
+			_putchar((p % 10) + '0');
 		}
-		printf("\n");
+		_putchar('\n');
 	}
 }
 
