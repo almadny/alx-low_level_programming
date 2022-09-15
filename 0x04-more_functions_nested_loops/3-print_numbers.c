@@ -2,9 +2,7 @@
 /**
  * print_numbers - print numbers 0 to 9
  *
- * Description: loop through 0 to 9
- *
- * Return: none
+ * Return:void
  */
 void print_numbers(void)
 {
