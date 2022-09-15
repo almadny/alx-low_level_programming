@@ -2,8 +2,7 @@
 /**
  * print_numbers - print numbers 0 to 9
  *
- *
- * description:  loop through 0 to 9
+ * Description: loop through 0 to 9
  *
  * Return: none
  */
