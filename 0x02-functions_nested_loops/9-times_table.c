@@ -21,6 +21,9 @@ void times_table(void)
 			{
 				printf(", ");
 			}
+			else
+			{
+				printf("");
 		}
 		printf("\n");
 	}
