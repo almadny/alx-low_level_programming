@@ -16,12 +16,12 @@ void print_times_table(int n)
 	{
 		for (i = 0; i <= 9; i++)
 		{
-			for (j = 0; j < n; j++)
+			for (j = 0; j <= n; j++)
 			{
 				if (j < n)
-					printf("%d, ", i * j);
+					printf("%2d, ", i * j);
 				else
-					printf("%d\n", i * j);
+					printf("%2d\n", i * j);
 			}
 		}
 	}
