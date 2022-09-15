@@ -7,9 +7,6 @@
  */
 int main(void)
 {
-	char c;
-
-	c = 'A';
-
-	printf("%c: %d", c, _isupper(c));
+	print_numbers();
+	return (0);
 }
