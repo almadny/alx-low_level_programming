@@ -5,7 +5,7 @@
  * Description: Prints 1 to 100 and fizzbuzz
  * Return : void
  */
-void fizzbuzz(void)
+int fizzbuzz(void)
 {
 	int a;
 
