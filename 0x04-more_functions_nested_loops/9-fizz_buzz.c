@@ -1,11 +1,12 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * fizzbuzz - Prints fizzbuzz
+ * main - Prints fizzbuzz
  *
  * Description: Prints 1 to 100 and fizzbuzz
- * Return : void
+ * Return : Always 0
  */
-int fizzbuzz(void)
+int main(void)
 {
 	int a;
 
@@ -13,33 +14,23 @@ int fizzbuzz(void)
 	{
 		if (a % 3 == 0)
 		{
-			_putchar('F');
-			_putchar('i');
-			_putchar('z');
-			_putchar('z');
+			printf("Fizz ");
 		}
 		else if (a % 5 == 0)
 		{
-			_putchar('B');
-			_putchar('u');
-			_putchar('z');
-			_putchar('z');
+			printf("Buzz ");
 		}
 		else if (a % 3 == 0 && a % 5 == 0)
 		{
-			_putchar('F');
-			_putchar('i');
-			_putchar('z');
-			_putchar('z')
-			_putchar('B');
-			_putchar('u');
-			_putchar('z');
-			_putchar('z');
+			printf("Fizz Buzz");
 		}
 		else
 		{
-			_putchar(a);
+			printf("%d ", a);
 		}
 	}
+	printf("\n");
+
+	return (0);
 }
 
