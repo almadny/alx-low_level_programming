@@ -1,12 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * fizzbuzz - Entry point
- * Description: Print 1 to 100 and fizz buzz
- *
- * Return : Nothing
+ * main - Entry point
+ * 
+ * Return : Always 0
  */
-void fizzbuzz(void)
+int main(void)
 {
 	int a;
 
@@ -30,6 +29,7 @@ void fizzbuzz(void)
 		}
 	}
 	printf("\n");
+	return (0);
 
 }
 
