@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Prints fizzbuzz
+ * fizzbuzz - Entry point
+ * Description: Print 1 to 100 and fizz buzz
  *
- * Description: Prints 1 to 100 and fizzbuzz
- * Return : Always 0
+ * Return : Nothing
  */
-int main(void)
+void fizzbuzz(void)
 {
 	int a;
 
@@ -31,6 +31,5 @@ int main(void)
 	}
 	printf("\n");
 
-	return (0);
 }
 

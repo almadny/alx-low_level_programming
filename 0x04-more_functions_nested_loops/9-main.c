@@ -3,6 +3,7 @@
 /**
  * main - Entry point
  *
+ * Description: invoke fizzbuzz
  * Return: Always 0
  */
 int main(void)
