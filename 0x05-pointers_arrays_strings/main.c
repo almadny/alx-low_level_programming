@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char s[] = "Nafiu Ahmad";
+	char str[] = "Nafiu Ahmad";
 
-	printf("%d is the length of the string you sent", _strlen(s));
+	_puts(str);
 }
