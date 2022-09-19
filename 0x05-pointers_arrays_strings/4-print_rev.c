@@ -19,9 +19,9 @@ void print_rev(char *s)
 		i++;
 	}
 
-	for (j = len; i >= 0; i--)
+	for (j = len; j >= 0; j--)
 	{
-		c = s[i];
+		c = s[j];
 		write(1, &c, 1);
 		i++;
 	}
