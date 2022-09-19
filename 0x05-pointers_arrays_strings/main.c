@@ -8,10 +8,13 @@
 int main(void)
 {
 	int p;
+	int q;
 
 	p = 380;
-	printf("%d\n", p);
-	reset_to_98(&p);
-	printf("%d\n", p);
+	q = 830;
+
+	printf("p = %d : q = %d\n", p, q);
+	swap_int(&p, &q);
+	printf("p = %d : q = %d\n", p, q);
 	return (0);
 }
