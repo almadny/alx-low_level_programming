@@ -7,14 +7,7 @@
  */
 int main(void)
 {
-	int p;
-	int q;
+	char s[] = 'Nafiu Ahmad';
 
-	p = 380;
-	q = 830;
-
-	printf("p = %d : q = %d\n", p, q);
-	swap_int(&p, &q);
-	printf("p = %d : q = %d\n", p, q);
-	return (0);
+	printf("%d is the length of the string you sent", _strlen(&s));
 }
