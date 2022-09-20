@@ -10,8 +10,10 @@ void puts2(char *s)
 {
 	int i, j;
 	int len;
+	char c;
 
 	len = 0;
+	i = 0;
 	while (s[i] != '\0')
 	{
 		len++;
@@ -19,7 +21,8 @@ void puts2(char *s)
 	}
 	for (j = 0; j <= len - 1; j += 2)
 	{
-		_putchar(s[j]);
+		c = s[j];
+		write(1, &c, 1);
 	}
 	_putchar('\n');
 }
