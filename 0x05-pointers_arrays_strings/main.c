@@ -8,7 +8,9 @@
 int main(void)
 {
 	char *str;
+
 	str = "I do not fear computers, i fear the lack of it - Isaac Asimov";
-	print_rev(str);
+	rev_string(str);
+	printf("%s", str);
 	return (0);
 }
