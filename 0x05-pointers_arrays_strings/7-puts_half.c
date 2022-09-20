@@ -20,7 +20,7 @@ void puts_half(char *str)
 		len++;
 		i++;
 	}
-	if !(len % 2 == 1)
+	if (len % 2 == 0)
 	{
 		for (j = len / 2; j <= len - 1; j++)
 		{
