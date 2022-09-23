@@ -9,7 +9,7 @@
  */
 char *leet(char *s)
 {
-	int i, i2;
+	int i, j;
 
 	i = 0;
 
@@ -17,13 +17,13 @@ char *leet(char *s)
 
 	while (s[i])
 	{
-		for (i2 = 0; i2 <= 7; i2++)
+		for (j = 0; j <= 7; j++)
 		{
-			if (s[i] == leet[i2] ||
-			    s[i] - 32 == leet[i2])
-				s[i] = i2 + '0';
+			if (s[i] == leet[j] ||
+			    s[i] - 32 == leet[j])
+				s[i] = j + '0';
 		}
-		i++
+		i++;
 	}
 	return (s);
 }
