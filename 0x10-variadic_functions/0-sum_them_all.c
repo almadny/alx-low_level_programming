@@ -1,11 +1,11 @@
 #include <stdio>
 #include <stdarg.h>
 /**
- * sum_them_all: sum all int arrays
+ * sum_them_all - sum all int arrays
  * @n: number of arguments
+ * description: uses vargs macros to add nunbers
  *
  * Return: sum of integers received or 0 for no integer
- *
  */
 int sum_them_all(const unsigned int n, ...)
 {
