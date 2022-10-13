@@ -1,4 +1,3 @@
-#include <stdio>
 #include <stdarg.h>
 /**
  * sum_them_all - sum all int arrays
