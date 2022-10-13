@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * print_name - prints ones name
- * @name: Named to be printed
+ * @s: Named to be printed
  *
  * Return: Nothing
  */
@@ -14,7 +14,7 @@ void print_name(char *s)
 /**
  * p_name - calls name to print the name sent
  * @name: Name to be printed
- * @(*f)(char *): points to a function with a one arg.
+ * @f: points to a function with a one arg.
  *
  * Return: Nothing
  */
