@@ -9,6 +9,7 @@
  *
  * Return: Nothing
  */
+void print_sep(unsigned int l, unsigned int i);
 void print_all(const char * const format, ...)
 {
 	va_list a;
@@ -27,32 +28,40 @@ void print_all(const char * const format, ...)
 			case 'c':
 				cval = (unsigned char)va_arg(a, int);
 				printf("%c", cval);
-				if (i < strlen(format) - 1)
-					printf("%s", ", ");
+				print_sep(strlen(format), i);
 				break;
 			case 'i':
 				dval = va_arg(a, int);
 				printf("%d", dval);
-				if (i < strlen(format) - 1)
-					printf("%s", ", ");
+				print_sep(strlen(format), i);
 				break;
 			case 's':
 				sval = va_arg(a, char *);
 				if (sval == NULL)
 					sval = "(nil)";
 				printf("%s", sval);
-				if (i < strlen(format) - 1)
-					printf("%s", ", ");
+				print_sep(strlen(format), i);
 				break;
 			case 'f':
 				fval = va_arg(a, double);
 				printf("%f", fval);
-				if (i < strlen(format) - 1)
-					printf("%s", ", ");
+				print_sep(strlen(format), i);
 				break;
 		}
 		i++;
 	}
 	printf("\n");
 	va_end(a);
+}
+/**
+ * print_sep - print ssperator
+ * @l: len of input
+ * @i: position
+ *
+ * Return: Nothing
+ */
+void print_sep(unsigned int l, unsigned int i)
+{
+	if (i < l - 1)
+		printf("%s", ", ");
 }
