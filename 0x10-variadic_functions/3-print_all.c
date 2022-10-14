@@ -27,22 +27,28 @@ void print_all(const char * const format, ...)
 			case 'c':
 				cval = (unsigned char)va_arg(a, int);
 				printf("%c", cval);
+				if (i < strlen(format) - 1)
+					printf("%s", ", ");
 				break;
 			case 'i':
 				dval = va_arg(a, int);
 				printf("%d", dval);
+				if (i < strlen(format) - 1)
+					printf("%s", ", ");
 				break;
 			case 's':
 				sval = va_arg(a, char *);
 				if (sval == NULL)
 					sval = "(nil)";
 				printf("%s", sval);
+				if (i < strlen(format) - 1)
+					printf("%s", ", ");
 				break;
 			case 'f':
 				fval = va_arg(a, double);
 				printf("%f", fval);
-				break;
-			default:
+				if (i < strlen(format) - 1)
+					printf("%s", ", ");
 				break;
 		}
 		i++;
