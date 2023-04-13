@@ -55,7 +55,7 @@ void print_array(int *array, unsigned int low, unsigned int high)
 {
 	unsigned int i;
 
-	printf("Searching in array:");
+	printf("Searching in array: ");
 
 	for (i = low; i <= high; i++)
 	{
@@ -64,6 +64,6 @@ void print_array(int *array, unsigned int low, unsigned int high)
 			printf("%d, ", array[i]);
 		}
 		else
-			printf("%d \n", array[i]);
+			printf("%d\n", array[i]);
 	}
 }
