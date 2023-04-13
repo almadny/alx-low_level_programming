@@ -64,6 +64,6 @@ void print_array(int *array, unsigned int low, unsigned int high)
 			printf("%d, ", array[i]);
 		}
 		else
-			printf("%d\n", array[i]);
+			printf("%d \n", array[i]);
 	}
 }
